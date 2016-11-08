@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/quiz"
+            android:checked="false"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="@string/app_name" />
+
+        <item
+            android:id="@+id/sales"
+            android:checked="false"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="@string/sales"/>
+        <item
+            android:id="@+id/logout"
+            android:checked="false"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="@string/logout"
+
+            />
+
+        <item
+            android:id="@+id/sent_mail"
+            android:checked="false"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="@string/inbox_string"
+            android:visible="false"/>
+
+        <item
+            android:id="@+id/drafts"
+            android:checked="false"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:visible="false"
+            android:title="@string/inbox_string"/>
+
+
+        <item
+            android:id="@+id/allmail"
+            android:checked="false"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:visible="false"
+            android:title="@string/inbox_string" />
+        <item
+            android:id="@+id/trash"
+            android:checked="false"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:visible="false"
+            android:title="@string/inbox_string"/>
+
+    </group>
+</menu>

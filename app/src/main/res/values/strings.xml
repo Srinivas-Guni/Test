@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="action_settings">Settings</string>
+    <string name="inbox_string">Item4</string>
+    <string name="sales">Item 1</string>
+    <string name="logout">Logout</string>
+    <string name="openDrawer">Open</string>
+    <string name="closeDrawer">Close</string>
+    <string name="one">Fragment Home</string>
+</resources>
